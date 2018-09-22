@@ -1,0 +1,2 @@
+# CloudPickup
+A project which involves the use of virtual simulation and artificial intelligence to pickup garbage on the streets. The simulation shows the "robot" moving around in different places using machine learning models and learns/improves based on the previous data. That allows clustering of points which helps predict where the garbage would be on streets. This simulation has a good purpose in our world today as it may be used to keep our streets clean and have a sustainable planet.
