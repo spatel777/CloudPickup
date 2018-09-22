@@ -1,0 +1,59 @@
+body{
+	background: #f4f4f4;
+}
+
+#robot {
+	position: relative;
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	z-index: 2;
+}
+
+#topBar {
+	height: 2em;
+	border-bottom: 1em solid black;
+}
+
+.button {
+	width: 5em;
+	border-right: 2px black solid;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#timer {
+	width: 12em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#map {
+	height: 400px;
+	width: 800px;
+	background-image: url(grid.png);
+	background-repeat: repeat;
+}
+
+ul {
+	overflow: auto;
+	width:15em;
+	height: 7em;
+}
+
+h1 {
+	padding: 0;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.trashP {
+	position: relative;
+	height: 4px;
+	width: 4px;
+	border-radius: 2px;
+	background: green;
+	display: inline;
+
+}

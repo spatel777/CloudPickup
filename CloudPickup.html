@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Cloud Pickup</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+	<div id="topBar" >
+		<span><button id="button"> Start</button></span>
+		<span  id="timer"> Timer</span>
+	</div>
+	<div id="map">
+		<span><img src="robot2.png" id="robot"></span>
+
+	</div>
+	<div id="dataWindow">
+		<span>
+			<h1>Points</h1>
+			<ul id="list"></ul>
+		</span>
+	</div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCFh65iW-2YWTCBRTq_8ZjFHz6AbZJIPSc",
+    authDomain: "cloudpickup-757b3.firebaseapp.com",
+    databaseURL: "https://cloudpickup-757b3.firebaseio.com",
+    projectId: "cloudpickup-757b3",
+    storageBucket: "cloudpickup-757b3.appspot.com",
+    messagingSenderId: "1078580718564"
+  };
+  firebase.initializeApp(config);
+</script>
+<script type="text/javascript" src="pickupPather.js"></script>
+</html>
